@@ -10,6 +10,15 @@
 
    ========================================================================== */
 
+@font-face {
+    font-family: FZSongKeBenXiuKai-R-GBK;
+    src: url("file:///android_asset/fonts/FZSKBXKK.TTF");
+}
+
+.chinese-font {
+    font-family: FZSongKeBenXiuKai-R-GBK;
+}
+
 html {
   min-height: 100%;
 }

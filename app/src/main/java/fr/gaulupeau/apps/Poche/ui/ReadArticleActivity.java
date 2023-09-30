@@ -884,6 +884,7 @@ public class ReadArticleActivity extends BaseActionBarActivity {
         if (settings.isArticleFontSerif()) additionalClasses.add("serif-font");
         if (settings.isArticleTextAlignmentJustify()) additionalClasses.add("text-align-justify");
         additionalClasses.add(settings.getHandlePreformattedTextOption());
+        additionalClasses.add("chinese-font");
 
         String classAttr;
         if (!additionalClasses.isEmpty()) {
